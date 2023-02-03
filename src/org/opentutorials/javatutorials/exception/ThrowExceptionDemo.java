@@ -28,7 +28,7 @@ class C{
 void run() throws FileNotFoundException,IOException{//또 다음 사용자에게 넘기고싶다면 여기다가 throws 하면 된다.
 B b = new B();
 try {
-	b.run();//기존에 b.run();을 했을땐 오류가 떳다,  예외는 중첩해서 사용할수도 있다 또는 캐치를 추가하는것이다
+	b.run();//기존에 b.run();을 했을때 오류가 떳다,  예외는 중첩해서 사용할수도 있다 또는 캐치를 추가하는것
 } catch (FileNotFoundException e) {
 	e.printStackTrace();
 }   catch (IOException e) {
